@@ -1,0 +1,105 @@
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.post-card{
+  width: 500px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px 5px #bdbdbd;
+  margin-bottom:50px ;
+  padding-top: 7px;
+}
+.nagomi-pic{
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.nagomi-pic:hover{
+  
+}
+.post{
+  border: none;
+  vertical-align: middle;
+  font-size: 20px;
+  margin-right: 100px;
+}
+.post-button{
+  background-color: #29a2d6;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: none;
+  border-radius: 20px;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.post-button:hover{
+  opacity:0.8
+}
+.post-button:active{
+  opacity:0.6;
+  color:whitesmoke;
+}
+
+.invit-card{
+  display: inline-block;
+  margin-right: 10px;
+  box-shadow:0px 0px 10px  gray;
+  border:none;
+  border-radius: 10px;
+}
+.invit-pic{
+  width: 120px;
+  height: 140px;
+  margin-bottom: 3px;
+  border-radius: 10px;
+  vertical-align: top;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.invit-pic:hover{
+  width: 160px;
+  height: 180px;
+}
+.invit-pic:active{
+  opacity: 0.8;
+}
+.friend-name{
+  font-weight:bold;
+  margin: 5px 5px;
+}
+
+.mutual-friends{
+  color: gray;
+  margin-bottom: 3px;
+  margin: 5px 5px;
+  font-size: 13px;
+}
+.add-button{
+  background-color: #2658ed;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding:10px 20px ;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.add-button:hover{
+  opacity: 0.8;
+}
+.add-button:active{
+  opacity: 0.6;
+}

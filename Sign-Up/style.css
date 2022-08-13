@@ -1,0 +1,44 @@
+.first-name,
+.last-name{
+  border:0.5px gray solid;
+  border-radius: 10px;
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.first-name{
+  margin-right: 21px;
+}
+.email{
+  display: block;
+  border:0.5px gray solid;
+  border-radius: 10px;
+  width: 230px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.sign-button{
+  background-color: #0f3fcc;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding-right: 93px;
+  padding-left: 93px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  cursor: pointer;
+  transition: opacity 0.5s;
+}
+.sign-button:hover {
+  opacity: 0.9;
+}
+.sign-button:active {
+  opacity: 0.7;
+}

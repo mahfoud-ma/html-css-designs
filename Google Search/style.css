@@ -1,0 +1,48 @@
+div{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.google-image{
+  transition: 1s;
+  width: 400px;
+}
+
+.google-image:hover {
+  opacity: 0.6;
+}
+
+.google-search{
+  width: 600px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  font-size: 17px;
+  box-shadow: 0px 0px 10px #cdcbcb;
+  transition: box-shadow 0.5s;
+  padding-left: 15px;
+}
+
+.google-search:hover {
+  box-shadow: 0px 0px 10px  gray;
+}
+
+button{
+  background-color: #e0e0e0;
+  color: black;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 15px;
+  transition: 0.5s;
+}
+button:hover{
+  box-shadow: 0px 0px 5px #b3b3b3;
+}
+button:active{
+  opacity: 0.5;
+}

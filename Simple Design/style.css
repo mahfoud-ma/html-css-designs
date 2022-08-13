@@ -1,0 +1,64 @@
+.flex-box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.user-image{
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  object-fit: cover;
+  box-shadow: 0px 0px 5px gray;
+  transition: 0.5s;
+}
+
+.user-image:hover{
+  box-shadow: 0px 0px 15px gray;
+}
+
+.user-image:active{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+
+.name-info{
+  align-content: left;
+  width: 200px;
+  margin-left: 10px;
+  transition: 0.5s;
+}
+
+.name-info:hover{
+  color: red;
+  font-weight: bold;
+}
+
+.user-name{
+  font-weight:bold;
+}
+
+.user-info{
+  color:gray;
+  transition: 0.3s;
+}
+
+.follow-button{
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  background:#3131dd;
+  border:none;
+  border-radius: 13px;
+  padding:10px 13px;
+  display: flex;
+  justify-content: right;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.follow-button:hover{
+  padding: 15px 18px;
+  font-size: 20px;
+}

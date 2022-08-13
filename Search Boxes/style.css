@@ -1,0 +1,107 @@
+p{
+  color: gray; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.general{
+  margin-bottom: 30px;
+  border: #bfbbbb solid 1px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 50px;
+  padding-left: 20px;
+  border-radius: 12px;
+}
+
+.google{
+/*  position: absolute;
+  top: 50px;
+  left: 8px;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 300px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 25px;
+  box-shadow:2px 2px 10px 1px #acaaaa;
+  margin-bottom: 30px;
+}
+
+.linkedin{
+  border: gray 1.5px solid;
+  border-radius: 5px;
+  width: 280px;
+  height: 30px;
+  box-shadow: 2px 2px 10px 0.4px gray;
+}
+.privacy-link{
+  text-decoration: underline ;
+  cursor: pointer;
+}
+.linkedin-button{
+  background-color: #4040ce;
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 80px;
+  padding-left: 80px;
+  border: none;
+  border-radius: 40px;
+  margin-bottom: 30px;
+  transition: box-shadow 0.5s , opacity 0.5s;
+  cursor: pointer;
+}
+.linkedin-button:hover{
+  box-shadow: 5px 5px 10px gray;
+}
+.linkedin-button:active{
+  opacity: 0.8;
+}
+
+/*i faced a problem to make the picture the box and the button aligned the solution is the all of them on the same vertical align and i used here vertical align middle*/
+.user-image{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+
+  object-fit: cover;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: box-shadow 1s, opacity 0.5s  ;/*the comma between them is mondatory*/
+}
+.user-image:hover{
+  box-shadow: 5px 5px 10px gray;
+}
+.user-image:active{
+  opacity: 0.8;
+}
+
+.tweet-text{
+  border: none;
+  font-size: 19px;
+  vertical-align: middle;
+ /* margin-top: 9px;*/
+  width: 180px;
+  border-radius: 90px;
+  
+}
+.tweet-button{
+  background-color:#0088f0 ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.tweet-button:hover{
+  opacity: 0.8;
+}
+.tweet-button:active{
+  opacity: 0.5;
+}

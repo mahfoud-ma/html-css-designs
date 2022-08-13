@@ -1,0 +1,104 @@
+.tweet{
+  display: flex;
+  flex-direction: row;
+  align-items: bottom;
+  box-shadow: 0px 0px 5px black ;
+  padding: 10px;
+  width: 600px;
+  border-radius: 15px;
+}
+
+.image{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.image:hover{
+  height: 70px;
+  width: 70px;
+  border-radius: 70px;
+}
+
+.image:active{
+  opacity: 0.8;
+}
+
+.user-box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0px;
+  cursor: pointer;
+  transition: opacity 0.5s;
+}
+
+.name:hover,
+.username:hover{
+  color: red;
+}
+
+.name{
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 8px;
+}
+.username{
+  font-size: 18;
+  color: gray;
+}
+
+.tweet-text{
+  font-size: 20px;
+  width: 500px;
+  margin-bottom: 10px;
+  transition: 0.8s;
+  padding: 5px;
+}
+
+.tweet-text:hover{
+  font-weight: bold;
+  width: 550px;
+}
+
+.video-overview{
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  border: gray solid 1px;
+  width: 300px;
+  cursor: pointer;
+}
+
+.video-thumbnail{
+  background-color: gray;
+  width: 90px;
+  height: 90px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-right: 5px;
+  transition: 0.5s;
+}
+
+.video-thumbnail:hover{
+  width: 120px;
+  height: 120px;
+}
+
+.site-adress{
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 4px;
+}
+
+
+.video-title{
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+

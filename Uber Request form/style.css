@@ -1,0 +1,51 @@
+.text{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+input{
+  background-color: #d4d4d4;
+  width: 300px;
+  padding: 10px 10px;
+  border:none;
+  color: #616161;
+  margin-bottom: 10px;
+  display: block;
+}
+.request-button{
+  background-color:black ;
+  color: white;
+  width: 100px;
+  padding-top:10px ;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  margin-right: 10px;
+  display: inline-block;
+  border: none;
+  transition: 0.5s;
+}
+.request-button:active {
+  background-color:#bfbfbf ;
+  color: black;
+}
+.schedule-button{
+  background-color:#bfbfbf ;
+  color: black;
+  width: 150px;
+  padding-top:10px ;
+  padding-bottom: 10px;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.schedule-button:active{
+  background-color: black;
+  color: #bfbfbf;
+}
+.schedule-button:hover,
+.request-button:hover{
+  box-shadow: 25px 25px 10px #c9c9c9;
+}
+
+
